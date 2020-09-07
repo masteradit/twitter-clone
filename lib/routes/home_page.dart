@@ -13,7 +13,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         leading: Padding(
-          padding: EdgeInsets.all(MediaQuery.of(context).size.width * 0.03),
+          padding: EdgeInsets.all(12.0),
           child: CircleAvatar(
             backgroundImage:
                 NetworkImage('https://www.w3schools.com/w3images/avatar2.png'),
